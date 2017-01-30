@@ -1,0 +1,55 @@
+/********** SLIDER **********/
+.slider {
+  max-width: 1920px;
+    min-width: 320px;
+  margin: 0px auto;
+    border-top: solid 1px #cf0004;
+}
+ 
+.slide-viewer {
+    position: relative; /* needed for IE7 */
+    overflow: hidden;
+    height: 430px;
+}
+ 
+.slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;}
+ 
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;}
+ 
+.slide:first-child {
+    display: block;}
+ 
+ 
+/********** BUTTONS **********/
+.slide-buttons {
+  text-align: center;}
+ 
+.slide-btn {
+  border: none;
+  background: none;
+  color: #000;
+  font-size: 200%;
+  line-height: 0.5em;}
+ 
+.slide-btn.active, .slide-btn:hover {
+  color: #ed8e6c;
+  cursor: pointer;}
+
+@media screen and (max-width: 768px) {
+    .slide-viewer {
+    height: 180px;
+    }
+}
+
+@media screen and (max-width: 620px){
+  .slider {
+    display: none;
+    }  
+}

@@ -1,0 +1,42 @@
+.modal {
+  position: absolute;
+  z-index: 1000;
+  padding: 50px;
+    color: #fff;  font-family: 'Open Sans', cursive;
+    line-height: 1.4em;
+background-color: #cf0004;
+    box-shadow: 0 0 10px #000036;
+}
+
+.modal h3 {
+    font-family: 'Open Sans', cursive;
+}
+
+
+ 
+.modal-close {
+  cursor: pointer;}
+ 
+#window {
+  background: #fff;
+  text-align: center;}
+ 
+.social {
+  color: #858585;}
+ 
+section img {
+  display: block;
+  margin: 0 auto;}
+
+
+button.modal-close {
+  font-family: 'Open Sans', cursive; font-size: 1.2em; text-decoration: none; 
+    color: #fff; border: 1px solid #fff; margin: 100px 0 0 0; padding: 4px 15px; background-color: rgba(0,0,0,0);
+    transition: background-color .5s, box-shadow .5s, text-shadow .5s;}
+ 
+button.modal-close:hover {
+
+    background-color: rgba(0,0,0,.3);
+    text-shadow: 2px 2px 2px #930000, -1px -1px 2px #0000FF;
+    box-shadow:2px 2px 2px #930000, -1px -1px 2px #0000FF;
+}
